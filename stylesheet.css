@@ -110,14 +110,19 @@ div li:hover {
 .main-body div {
     /* background-color: blueviolet; */
     height: auto;
-    width: 500px;
+    width: 600px;
     margin: 20px;
     /* background-color: brown; */
-    flex-grow: 1;
+    /* flex-grow: 1; */
     text-align: center;
+
 }
 
 .main-body div img {
     width: 250px;
     margin-bottom: 50px;
+}
+
+.main-body div p {
+    width: inherit;
 }
